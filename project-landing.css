@@ -792,12 +792,9 @@ canvas {
 		top: 32%;
 	}
 
-	.banner-arrow {
-		bottom:10px;
-		width:100px;
-		height:70px;
-		justify-content:center;
-		align-items:flex-end;
+	.arrow {	
+		width:125px;
+		height: 88px;
 	}	
 }
 
@@ -806,27 +803,21 @@ canvas {
 		font-size: 11vw;
 		top: 38%;
 	}
-
-	.banner-arrow {
-		bottom:10px;
-		width:100px;
-		height:70px;
-		justify-content:center;
-		align-items:flex-end;
+	.arrow {	
+		width:150px;
+		height: 105px;
 	}	
+	
 }
 
 @media (max-width: 990px) {
 	#banner h1 {
-		font-size: 11vw;
-		top: 38%;
+		font-size: 14vw;
+		top: 37%;
 	}
 
-	.banner-arrow {
-		bottom:10px;
-		width:100px;
-		height:70px;
-		justify-content:center;
-		align-items:flex-end;
+	.arrow {	
+		width:150px;
+		height: 105px;
 	}	
 }
