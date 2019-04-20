@@ -250,14 +250,14 @@ canvas {
 	position: relative;
 	left: 54.688vw;
 	bottom: 18.229vw;
-	width: 38.073vw;
+	width: 40vw;
 }
 
 #miguel {
 	position: relative;
-	left: 10.417vw;
-	bottom: 33.854vw;
-	width: 14.74vw;
+	left: 7.2vw;
+	bottom: 32.854vw;
+	width: 18vw;
 }
 
 #ONE {
@@ -282,25 +282,26 @@ canvas {
 }
 
 #sect-2-box-2 {
-	width: 50%;
+	width: 62%;
 	height: auto;
 	position: relative;
-	left: 16.667vw;
-	top: 280px;	
+	left: 12.9vw;
+	top: 220px;	
 	padding: 4.167vw 1.042vw;
 	padding-bottom: 1.927vw;
 }
 
 #quote {
-	font-size: 2.344vw;
+	font-size: 3vw;
 	margin: 0 8.333vw;
 }
 
 #quote-p {
 	margin: 4.167vw 2.604vw 0vw 2.604vw;
-	font-size: 1.667vw;
+	font-size: 2.396vw;
 }
 
+/*
 #quote-mark-1 {
 	position: relative;
 	bottom: 10.417vw;
@@ -315,6 +316,7 @@ canvas {
 	left: 67.708vw;
 	width: 10.417vw;	
 }
+*/
 
 #sect-3 {
 	background: url("blue.png");
@@ -356,7 +358,7 @@ canvas {
 }
 
 #sect-4-heading {
-	margin-top: 5.99vw;
+	margin-top: 165px;
 }
 
 #form {
@@ -404,14 +406,6 @@ canvas {
 	margin: 1.042vw;
 }
 
-#work {
-	font-size: 4.688vw;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 300;
-	text-align: center;
-	margin: 1.042vw;
-}
-
 #footer {
 	margin-top: -5.208vw;
 	background: hsl(0, 0%, 18%);
@@ -421,7 +415,7 @@ canvas {
 #footer-div {
 	background: hsl(0, 0%, 18%);
 	margin-top: -1.042vw;
-	padding: 0vw 1.302vw 60vw 1.302vw;
+	padding: 0vw 1.302vw 3vw 1.302vw;
 }
 
 #list {
@@ -455,7 +449,6 @@ canvas {
 #authors-note:hover {
 	color: #fcf649;
 }
-
 
 .modal {
   display: none;
@@ -796,46 +789,8 @@ canvas {
 		height: 88px;
 	}	
 }
-/**/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*functioning query*/
-@media (max-width: 990px) {
+@media (max-width: 1024px) {
 	#nav-bar div {
 		position: fixed;
 		top: 2vw;
@@ -881,6 +836,8 @@ canvas {
 		margin-right: auto;
 		left: 0;
 		right: 0;
+		top: 6vw;
+		z-index: 1;
 	}
 	
 	#sect-2-box-1 {
@@ -889,6 +846,8 @@ canvas {
 		margin-right: auto;
 		left: 0;
 		right: 0;
+		top: 4vw;
+		z-index: 1;
 	}
 	
 	#sect-3-box-1 {
@@ -897,67 +856,174 @@ canvas {
 		margin-right: auto;
 		left: 0;
 		right: 0;
-	}
-	
-	#sect-1-box-2 {
-		width: 75%;
-		right: 10vw;
-		top: 53vw;
-		padding-top: 1.563vw;
-		padding-bottom: 1.563vw;
+		top: 4vw;
 		z-index: 1;
 	}
 	
+	#sect-1-box-2 {
+		width: 90%;
+		top: 49vw;
+		padding-top: 1.563vw;
+		padding-bottom: 1.563vw;
+		z-index: 1;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
+	}
+	
+	#sect-2-box-2 {
+		width: 90%;
+		top: 440px;	
+		padding: 4.167vw 1.042vw;
+		padding-bottom: 1.927vw;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;		
+		z-index: 1;
+	}	
+		
 	#sect-3-box-2 {
 		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
 		left: 0;
 		right: 0;
+		top: 39vw;
+		z-index: 1;
 	}
 
 	#video {
-		height: 430px;
+		height: 45vw;
 	}
 	
 	#sect-1 h2 {
 		font-weight: 400;
-		font-size: 5.42vw;
+		font-size: 6vw;
 		margin: 1.042vw;
 		margin-bottom: 0px;
 		text-decoration: underline;
 	}
+	
+	#sect-1 p {
+		margin: 0;
+		padding: 1.042vw 0vw;
+		font-size: 4.5vw;
+	}	
+	
+	#quote {
+		font-size: 5vw;
+		margin: 0 8.333vw;
+	}
 
+	#quote-p {
+		margin: 4.167vw 2.604vw 0vw 2.604vw;
+		font-size: 4.5vw;
+	}
+	
 	#sect-3 h2 {
 		font-weight: 300;
 		font-size: 2.2vw;
 		margin-top: -0.521vw;
 		margin-bottom: 0vw;
 	}	
-	
-	#sect-1 p {
-		margin: 0;
-		padding: 1.042vw 0vw;
-		font-size: 4vw;
+
+	#sect-4-heading {
+		margin-top: 25vw;
 	}
 
+	#form {
+		margin-top: 12vw;
+		text-align: center;
+	}
+
+	#email {
+		width: 90%;
+		text-align: center;
+		font-family: Roboto;
+		font-weight: 100;
+		font-size: 4.5vw;
+		padding: 1.563vw 1.563vw;
+	}
+
+	#email-instructions {
+		font-size: 3vw;
+		font-family: 'Open Sans';
+		font-weight: 300;
+		padding: 0 10%;
+	}
+
+	#submit {
+		font-size: 8vw;
+		font-weight: 700;
+		background: transparent;
+		margin-top: 4vw;
+		cursor: pointer;
+	}
+		
+	#footer {
+		margin-top: -5.208vw;
+		height: 10vw;
+	}
+
+	#footer-div {
+		margin-top: 0vw;
+		padding: 0vw .5vw 3vw .5vw;
+	}
+
+	.footer-left {
+		font-size: 2vw;
+		padding: 0 .5vw;
+		margin-left: 30%;
+		margin-right: auto;
+		margin-top: -3vw;
+	}
+
+	.footer-right {
+		font-size: 3vw;
+		padding: 0 1vw;
+		display: block;
+		margin-left: auto;
+		margin-right: 8vw;
+		margin-top: 1vw;
+		margin-bottom: 2vw;
+	}	
+
+	#mucci-copyright {
+		display:none;
+	}
+	
 	.headings {
 		font-size: 7vw;
 		font-family: 'Montserrat', sans-serif;
 		font-weight: 300;
 		text-align: center;
 		margin: 1.042vw;
-		
 	}	
 
 	#sans {
-		position: relative;
 		left: 10.688vw;
-		bottom: 28vw;
+		bottom: 34vw;
 		width: 85vw;
 		z-index: 0;
 	}
+	
+	#miguel {
+		position: relative;
+		left: 23vw;
+		bottom: 43vw;
+		width: 30vw;
+		z-index: 0;
+	}
 
+	#ONE {
+		left: 35vw;
+		bottom: 52vw;
+		width: 50vw;
+		z-index: 0;
+	}
+	
 	#fcc_test_suite_wrapper {
 		display: none;
 	}	
