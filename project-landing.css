@@ -836,6 +836,35 @@ canvas {
 
 /*functioning query*/
 @media (max-width: 990px) {
+	#nav-bar div {
+		position: fixed;
+		top: 2vw;
+		right: 4.3vw;
+		font-size: 4vw;
+	}
+
+	nav {
+		width: 100%;
+		text-align: justify;
+		padding: 0;
+		height: 8vw;
+		font-weight: 200;
+	}
+	
+	a {
+		text-decoration: none;
+		color: white;
+		padding: 0px 30px;
+	}	
+	
+	#header-img {
+		width: 16vw;
+		height: auto;
+		position: fixed;
+		top: 2.7vw;
+		left: 6.2vw;
+	}	
+	
 	#banner h1 {
 		font-size: 14vw;
 		top: 37%;
@@ -877,9 +906,20 @@ canvas {
 		padding-top: 1.563vw;
 		padding-bottom: 1.563vw;
 		z-index: 1;
-		background-color: rgba(0, 0, 0, 0.8);
+	}
+	
+	#sect-3-box-2 {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+		left: 0;
+		right: 0;
 	}
 
+	#video {
+		height: 430px;
+	}
+	
 	#sect-1 h2 {
 		font-weight: 400;
 		font-size: 5.42vw;
@@ -888,6 +928,13 @@ canvas {
 		text-decoration: underline;
 	}
 
+	#sect-3 h2 {
+		font-weight: 300;
+		font-size: 2.2vw;
+		margin-top: -0.521vw;
+		margin-bottom: 0vw;
+	}	
+	
 	#sect-1 p {
 		margin: 0;
 		padding: 1.042vw 0vw;
@@ -906,11 +953,15 @@ canvas {
 	#sans {
 		position: relative;
 		left: 10.688vw;
-		bottom: 24vw;
+		bottom: 28vw;
 		width: 85vw;
 		z-index: 0;
 	}
 
+	#fcc_test_suite_wrapper {
+		display: none;
+	}	
+	
 }
 
 @media (max-width: 600px) {
