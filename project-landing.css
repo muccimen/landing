@@ -24,7 +24,7 @@ a {
 	text-decoration: none;
 	color: white;
 	padding: 0px 43px;
-	font-family: 'HelveticaNeue';
+	font-family: 'Helvetica Neue', 'HelveticaNeue', 'Roboto', sans-serif;
 }
 
 .no-box {
@@ -38,7 +38,7 @@ a {
 	top: 6px;
 	right: 20px;
 	font-size: 26px;
-	font-family: 'HelveticaNeue';
+	font-family: 'Helvetica Neue', 'HelveticaNeue', 'Roboto', sans-serif;
 	background-color: transparent;
 }
 
@@ -1036,7 +1036,6 @@ canvas {
 		top: 6px;
 		right: 20px;
 		font-size: 26px;
-		font-family: 'HelveticaNeue';
 		background-color: transparent;
 	}
 
